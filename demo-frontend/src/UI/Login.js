@@ -15,7 +15,7 @@ function Login() {
     setError("");
 
     try {
-      const response = await fetch(`${API_BASE_URL}:5001/login`, {
+      const response = await fetch(`http://3.6.36.160:5001/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

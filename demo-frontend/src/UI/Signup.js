@@ -14,7 +14,7 @@ function Signup() {
     setError("");
 
     try {
-      const response = await fetch(`${API_BASE_URL}:5001/signup`, {
+      const response = await fetch(`http://3.6.36.160:5001/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
