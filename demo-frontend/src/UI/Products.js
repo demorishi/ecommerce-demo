@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import API_BASE_URL from "../config";
 
 function Products() {
   const [search, setSearch] = useState("");
@@ -32,7 +33,7 @@ function Products() {
 
     try {
       const response = await fetch(
-        `http://localhost:5002/products/search?q=${encodeURIComponent(search)}`
+        `${API_BASE_URL}:5002/products/search?q=${encodeURIComponent(search)}`
       );
 
       const data = await response.json();

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import API_BASE_URL from "../config";
 
 function Signup() {
   const [name, setName] = useState("");
@@ -13,7 +14,7 @@ function Signup() {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:5001/signup", {
+      const response = await fetch(`${API_BASE_URL}:5001/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
