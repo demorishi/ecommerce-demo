@@ -12,7 +12,7 @@ function Products() {
     setMessage("");
 
     try {
-      const response = await fetch("http://localhost:5002/products");
+      const response = await fetch(`${API_BASE_URL}:5002/products`);
       const data = await response.json();
 
       if (!response.ok) {
