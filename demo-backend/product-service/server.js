@@ -14,7 +14,7 @@ const products = [
     category: "Mobile",
     price: 80000,
     description: "Apple smartphone with advanced camera",
-    image: "https://via.placeholder.com/250x220?text=iPhone+15"
+    image: "http://d2yeqv62o6h99f.cloudfront.net/images/iphone.jpg"
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const products = [
     category: "Mobile",
     price: 75000,
     description: "Samsung flagship mobile phone",
-    image: "https://via.placeholder.com/250x220?text=Samsung+Galaxy+S24"
+    image: "http://d2yeqv62o6h99f.cloudfront.net/images/samsung galaxy.jpg"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const products = [
     category: "Accessories",
     price: 12000,
     description: "Noise cancelling wireless headphones",
-    image: "https://via.placeholder.com/250x220?text=Sony+Headphones"
+    image: "http://d2yeqv62o6h99f.cloudfront.net/images/headphones.jpg"
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const products = [
     category: "Laptop",
     price: 65000,
     description: "Lightweight laptop for office work",
-    image: "https://via.placeholder.com/250x220?text=Dell+Laptop"
+    image: "http://d2yeqv62o6h99f.cloudfront.net/images/laptop.jpg"
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const products = [
     category: "Fashion",
     price: 6000,
     description: "Comfortable running shoes",
-    image: "https://via.placeholder.com/250x220?text=Nike+Shoes"
+    image: "http://d2yeqv62o6h99f.cloudfront.net/images/shoes.jpg"
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const products = [
     category: "Wearable",
     price: 32000,
     description: "Smart watch with fitness tracking",
-    image: "https://via.placeholder.com/250x220?text=Apple+Watch"
+    image: "http://d2yeqv62o6h99f.cloudfront.net/images/apple watch.jpg"
   }
 ];
 
