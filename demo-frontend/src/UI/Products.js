@@ -32,7 +32,7 @@ function Products() {
 
     try {
       const response = await fetch(
-        `${API_BASE_URL}:5002/products/search?q=${encodeURIComponent(search)}`
+        `http://3.6.36.160:5002/products/search?q=${encodeURIComponent(search)}`
       );
 
       const data = await response.json();
