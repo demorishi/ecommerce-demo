@@ -11,7 +11,7 @@ function Products() {
     setMessage("");
 
     try {
-      const response = await fetch(`https://d2yeqv62o6h99f.cloudfront.net/api/auth/products`);
+      const response = await fetch(`https://d2yeqv62o6h99f.cloudfront.net/api/products/products`);
       const data = await response.json();
 
       if (!response.ok) {
