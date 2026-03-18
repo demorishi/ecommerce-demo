@@ -35,7 +35,7 @@ function Login() {
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
 
-      setMessage("Yes!!! Login successful");
+      setMessage(data.message || "Login successful");
 
       setTimeout(() => {
         navigate("/products");
