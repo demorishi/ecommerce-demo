@@ -10,7 +10,7 @@ app.use(express.json());
 const products = [
   {
     id: 1,
-    name: "iPhone 15",
+    name: "iPhone 17 Pro",
     category: "Mobile",
     price: 80000,
     description: "Apple smartphone with advanced camera",
