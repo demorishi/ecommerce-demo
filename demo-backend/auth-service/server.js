@@ -19,7 +19,7 @@ let users = [
 
 // Health check
 app.get("/", (req, res) => {
-  res.json({ message: "Auth service is running" });
+  res.json({ message: "auth-service is running" });
 });
 
 // Signup API
@@ -101,5 +101,5 @@ app.post("/login", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Auth backend service running on http://localhost:${PORT}`);
+  console.log(`Auth service running on http://localhost:${PORT}`);
 });
