@@ -11,7 +11,7 @@ function Products() {
     setMessage("");
 
     try {
-      const response = await fetch(`http://3.6.36.160:5002/products`);
+      const response = await fetch(`https://d2yeqv62o6h99f.cloudfront.net/api/auth/products`);
       const data = await response.json();
 
       if (!response.ok) {
@@ -32,7 +32,7 @@ function Products() {
 
     try {
       const response = await fetch(
-        `http://3.6.36.160:5002/products/search?q=${encodeURIComponent(search)}`
+        `https://d2yeqv62o6h99f.cloudfront.net/api/auth/products/search?q=${encodeURIComponent(search)}`
       );
 
       const data = await response.json();

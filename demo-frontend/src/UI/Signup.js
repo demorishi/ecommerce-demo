@@ -13,7 +13,7 @@ function Signup() {
     setError("");
 
     try {
-      const response = await fetch(`http://3.6.36.160:5001/signup`, {
+      const response = await fetch(`https://d2yeqv62o6h99f.cloudfront.net/api/auth/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
