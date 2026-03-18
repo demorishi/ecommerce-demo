@@ -32,7 +32,7 @@ function Products() {
 
     try {
       const response = await fetch(
-        `https://d2yeqv62o6h99f.cloudfront.net/api/products/search?q=${encodeURIComponent(search)}`
+        `https://d2yeqv62o6h99f.cloudfront.net/api/products/products/search?q=${encodeURIComponent(search)}`
       );
 
       const data = await response.json();
