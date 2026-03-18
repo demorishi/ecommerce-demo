@@ -101,5 +101,5 @@ app.post("/login", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Auth service running on http://localhost:${PORT}`);
+  console.log(`Auth backend service running on http://localhost:${PORT}`);
 });
