@@ -90,7 +90,7 @@ app.post("/login", (req, res) => {
 
   return res.status(200).json({
     success: true,
-    message: "Login successful",
+    message: "Login successful!!",
     token: "demo-token-123",
     user: {
       id: user.id,
