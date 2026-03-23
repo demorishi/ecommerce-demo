@@ -1,0 +1,5 @@
+Deployment Diagram: https://app.eraser.io/workspace/HZJ4DHPCzNn4NYEl2tCa?origin=share&elements=D3DVeLGxbnhwDxvp9_Cszg
+
+Frontend CI/CD: https://app.eraser.io/workspace/TV6IP8Xp1687E0PrJpSX?origin=share&elements=JTogC6n7BVWu8bKIMFfVRQ
+
+Backend CI/CD: https://app.eraser.io/workspace/BSx6DcgG2BU2PqpT89sA?origin=share&elements=pLd8GvKf2l532bKJRDx3NQ
